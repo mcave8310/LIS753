@@ -1,27 +1,37 @@
+body{
+  background: #e6ffcc;
+}
+
 h1{
   color: #6495ED;
   font-size: 60px;
-  font-family: Trebuchet MS, sans-serif;
+  font-family: Georgia, serif;
   text-align: center;
 }
+
 img{
   border: 2px solid black;
 }
 
 figure img{
   max-width: 100%;
-  border: 5px solid black;
+  border-width: 5px;
+  border-color: #73264d;
+  padding: 2px;
 }
 figcaption{
-  font-family: Trebuchet MS, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 p{
-  color: #73264d;
-  font-size: 20px;
-  font-family: Georgia, serif;
+  color: #267326;
+  font-size: 24px;
+  font-faamily: Poppins, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 p img{
   width: 300px;
   height: auto;
+  padding: 4px;
 }
