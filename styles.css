@@ -61,3 +61,18 @@ nav ul li a:hover{
   color: #ffffff;
   padding: 4px;
 }
+
+.skip-link {
+  background: #4d1933;
+  color: #ffffff;
+  font-weight: 700;
+  left: 45%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.5s;
+}
+
+.skip-link:focus {
+  transform: translateY(0%);
+}
