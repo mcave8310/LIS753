@@ -22,8 +22,9 @@ h1#article-title {
 
 h2 {
   margin-left: 10px;
-  padding-bottom: 20px;
   font-weight: 600;
+  text-align: center;
+
 }
 
 figure {
@@ -57,7 +58,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 25px;
   padding: 0px;
 }
 
