@@ -5,44 +5,55 @@ body {
 
 h1#site-title {
   color: #2d4386;
-  font-size: 80px;
-  font-family: "Brush Script MT", cursive;
+  font-size: 8vw;
   text-align: center;
+  margin-top: 30px;
 }
 
 h1#article-title {
   color: #2d4386;
   text-align: center;
   text-transform: capitalize;
-  font-variant: small-caps;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 5vw;
+  font-weight: 400;
 }
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 
 h2 {
   margin-left: 10px;
-  font-weight: 600;
+  font-size: 22pt;
   text-align: center;
-
 }
 
-figure {
+figure.main-image {
   display: block;
   margin: 0;
   border: 5px solid black;
   padding: 5px;
+  max-width: 800px;
 }
+figure.section-image{
+  width: 300px;
+  height: auto;
+
+}
+
 figure img {
   max-width: 100%;
   height: auto;
 }
 figcaption {
-    font-family: "Trebuchet MS", sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 p{
  color: #004d00;
- font-size: 24px;
+ font-size: 20px;
  font-family: Georgia, serif;
  margin-left: 10px;
  margin-right: 10px;
@@ -81,6 +92,25 @@ header nav ul{
   font-size: 20px;
   font-family: Georgia, serif;
 }
+
+table {
+   border-spacing: 5px;
+   font-size: 18px;
+}
+tr th{
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 23px;
+}
+td.room {
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+td.hours {
+  text-align: center;
+}
+
+
 
 footer p{
   font-size: 18px;
