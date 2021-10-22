@@ -1,21 +1,22 @@
 body {
   margin: 0;
   font-family: "Trebuchet MS", sans-serif;
+  background-color: #e6f7ff;
+  font-size: 20px;
+}
+
+.white {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #a6a6a6;
+  margin-bottom: 20px;
 }
 
 h1#site-title {
-  color: #2d4386;
+  color: #0040ff;
   font-size: 8vw;
   text-align: center;
   margin-top: 30px;
-}
-
-h1#article-title {
-  color: #2d4386;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 5vw;
-  font-weight: 400;
 }
 
 article {
@@ -28,40 +29,66 @@ h2 {
   margin-left: 10px;
   font-size: 22pt;
   text-align: center;
+  color: #000066;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h3 {
+  margin-left: 10px;
+  font-size: 24pt;
+  color: #0040ff;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+h4 {
+  margin-left: 25px;
+  color: #990000;
 }
 
 figure.main-image {
   display: block;
   margin: 0;
-  border: 5px solid black;
   padding: 5px;
   max-width: 800px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 figure.section-image{
-  width: 300px;
+  width: 350px;
   height: auto;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+figure.last-image {
+  display: block;
+  margin: 0;
+  padding: 5px;
+  padding-bottom: 30px;
+  max-width: 800px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 figure img {
   max-width: 100%;
   height: auto;
 }
 figcaption {
   font-family: "Trebuchet MS", sans-serif;
+  font-size: 10px;
+  text-align: right;
 }
 
-p{
- color: #004d00;
- font-size: 20px;
+p {
+ color: #000066;
  font-family: Georgia, serif;
- margin-left: 10px;
- margin-right: 10px;
+ margin-left: 40px;
+ margin-right: 40px;
 }
-p img {
- width: 300px;
- height: auto;
- padding: 4px;
+p#tickets {
+  padding-bottom: 10px;
 }
 
 nav ul {
@@ -71,31 +98,33 @@ nav ul {
   gap: 25px;
   padding: 0px;
 }
-
 nav ul li a {
-  color: black;
+  color: #000066;
   text-decoration: none;
   display: block;
   padding: 4px;
 }
-
 header nav ul li a:hover {
-  background-color: #3973ac;
+  background-color: #002db3;
   color: #ffffff;
   padding: 4px;
 }
-
 header nav ul{
   border-top: 8px double;
   border-bottom: 8px double;
-  border-color: #2d4386;
+  border-color: #0040ff;
   font-size: 20px;
   font-family: Georgia, serif;
 }
 
 table {
-   border-spacing: 5px;
    font-size: 18px;
+   color: #000066;
+   width: 725px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 10px;
 }
 tr th{
   text-align: center;
@@ -109,12 +138,14 @@ td.room {
 td.hours {
   text-align: center;
 }
+.column-header {
+  color: #990000;
+  border-bottom: 1px solid #a6a6a6;
+  padding-bottom: 5px;
+}
 
-
-
-footer p{
-  font-size: 18px;
-  color: black;
+ul li {
+  color: #000066;
 }
 
 footer nav ul li a:hover {
@@ -123,9 +154,9 @@ footer nav ul li a:hover {
 
 footer#page-footer {
   border-top: 8px double;
-  border-color: #2d4386;
+  border-color: #0040ff;
   text-align: center;
-  color: black;
+  color: #000066;
   font-size: 18px;
   font-family: Georgia, serif;
 }
