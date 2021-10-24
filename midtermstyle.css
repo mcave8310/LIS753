@@ -26,7 +26,6 @@ article {
 
 
 h2 {
-  margin-left: 10px;
   font-size: 22pt;
   text-align: center;
   color: #000066;
@@ -39,7 +38,6 @@ h3 {
   font-size: 24pt;
   color: #0040ff;
   text-align: center;
-  font-variant: small-caps;
 }
 
 h4 {
@@ -144,6 +142,10 @@ td.hours {
 
 ul li {
   color: #000066;
+}
+
+.section-list {
+  padding-bottom: 10px;
 }
 
 footer nav ul li a:hover {
