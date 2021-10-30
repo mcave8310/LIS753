@@ -6,14 +6,20 @@ body {
 
 .container {
   width: 96%;
-  max-width: 1020px;
   margin: 0 auto;
+  border: 1px solid;
 }
 .small-container {
   width: 96%;
-  max-width: 1020px;
   margin: 0 auto;
   float: left;
+  border: 1px solid;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: left;
 }
 
 h1#site-title {
@@ -84,13 +90,14 @@ p img {
 .skip-link {
   background: #4d1933;
   color: #ffffff;
-  text-align: center;
   font-weight: 700;
-  margin-top: 0px;
-  margin-left: auto;
+  left: 45%;
   padding: 8px;
   position: absolute;
   transform: translateY(-50px);
+}
+.skip-link:focus {
+  transform: translateY(0%);
 }
 
 a:visited {
@@ -142,6 +149,7 @@ footer nav ul li a:hover {
 }
 
 footer#page-footer {
+  border-top: 8px double;
   text-align: center;
   color: black;
   font-size: 18px;
