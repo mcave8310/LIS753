@@ -44,7 +44,7 @@ figure {
   border: 5px solid black;
   padding: 5px;
 }
-figure img {
+img {
   max-width: 100%;
   height: auto;
 
@@ -84,23 +84,30 @@ p img {
 .skip-link {
   background: #4d1933;
   color: #ffffff;
+  text-align: center;
   font-weight: 700;
-  left: 45%;
+  margin-top: 0px;
+  margin-left: auto;
   padding: 8px;
   position: absolute;
   transform: translateY(-50px);
 }
 
-.skip-link:focus {
-  transform: translateY(0%);
+a:visited {
+  color: #73264d;
 }
 
 nav ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
   padding: 0px;
+}
+
+@media all and (min-width: 415px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
 }
 
 nav ul li a {
@@ -131,10 +138,10 @@ footer p{
 
 footer nav ul li a:hover {
   text-decoration: underline;
+  color: #2d4386;
 }
 
 footer#page-footer {
-  border-top: 8px double;
   text-align: center;
   color: black;
   font-size: 18px;
