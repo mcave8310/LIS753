@@ -107,6 +107,7 @@ a:visited {
 
 nav ul {
   border-top: 8px double;
+  border-color: #2d4386;
   list-style: none;
   padding: 0px;
 }
@@ -133,16 +134,10 @@ header nav ul li a:hover {
 }
 
 header nav ul {
-  border-top: 8px double;
   border-bottom: 8px double;
   border-color: #2d4386;
   font-size: 20px;
   font-family: Georgia, serif;
-}
-
-footer p{
-  font-size: 18px;
-  color: black;
 }
 
 footer nav ul li a:hover {
@@ -156,6 +151,7 @@ footer#page-footer {
   font-size: 18px;
   font-family: Georgia, serif;
 }
-
-.copyright {
+footer p{
   font-size: 14px;
+  color: black;
+}
