@@ -5,15 +5,13 @@ body {
 }
 
 .container {
-  width: 96%;
+  width: 98%;
   margin: 0 auto;
-  border: 1px solid;
 }
 .small-container {
-  width: 96%;
+  width: 98%;
   margin: 0 auto;
   float: left;
-  border: 1px solid;
 }
 
 .clearfix:after {
@@ -24,9 +22,20 @@ body {
 
 h1#site-title {
   color: #2d4386;
-  font-size: 80px;
+  font-size: 50px;
   font-family: "Brush Script MT", cursive;
   text-align: center;
+  margin: 60px 0px 0px 0px;
+}
+@media all and (min-width: 320px) {
+  h1#site-title {
+    font-size: 10vw;
+  }
+}
+@media all and (max-width: 320px) {
+  h1#site-title {
+    font-size: 40px;
+  }
 }
 
 h1#article-title {
@@ -34,13 +43,23 @@ h1#article-title {
   text-align: center;
   text-transform: capitalize;
   font-variant: small-caps;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
+}
+@media all and (min-width: 320px) {
+  h1#article-title {
+    font-size: 8vw;
+  }
+}
+@media all and (max-width: 320px) {
+  h1#article-title {
+    font-size: 30px;
+  }
 }
 
 h2 {
   margin-left: 10px;
-  padding-bottom: 20px;
+  margin-top: 30px;
   font-weight: 600;
 }
 
