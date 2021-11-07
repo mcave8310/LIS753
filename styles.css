@@ -20,6 +20,40 @@ body {
   clear: left;
 }
 
+.mode {
+  float: right;
+  font-size: 22px;
+}
+
+button {
+  background-color: #fff;
+  color: #0d0d0d;
+  font-size: 25px;
+  border-color: #fff;
+  border-radius: 99%;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+body.darkMode {
+  background-color: #0d0d0d;
+  color: #fff;
+}
+body.darkMode button {
+  background-color: #0d0d0d;
+  color: #fff;
+  border-radius: 99%;
+}
+body.darkMode nav ul li a {
+  color: #fff;
+}
+body.darkMode a:visited {
+  color: #73264d;
+}
+body.darkMode footer p{
+  color: #fff;
+}
+
 h1#site-title {
   color: #2d4386;
   font-size: 50px;
@@ -122,10 +156,6 @@ p img {
   text-align: center;
 }
 
-a:visited {
-  color: #73264d;
-}
-
 nav ul {
   border-top: 8px double;
   border-color: #2d4386;
@@ -146,6 +176,9 @@ nav ul li a {
   text-decoration: none;
   display: block;
   padding: 4px;
+}
+nav ul li a:visited {
+  color: #73264d;
 }
 
 header nav ul li a:hover {
