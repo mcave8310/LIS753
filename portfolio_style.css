@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #fff;
+}
+
+.gradient {
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(20,41,228,1) 34%, rgba(34,193,195,1) 100%);
+  color: #fff;
+}
+
+.mode {
+  float: right;
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+  border: 5px solid black;
+  padding: 5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+  font-family: "Trebuchet MS", sans-serif;
+}
+figure.main-image {
+  border-color: #73264d;
+  padding: 6px;
+  border-width: 6px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content:
+}
+figure.section-image {
+  border-color: #2d4386;
+  padding: 4px;
+  max-width: 30%;
+  margin: .5em;
+}
+@media all and (max-width: 499px) {
+  figure.section-image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: min-content;
+    max-width: 300px;
+  }
+}
+
+p {
+  color: #;
+  font-size: 24px;
+  font-family: Georgia, serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 40px;
+}
+@media all and (max-width: 499px) {
+  .wrapper {
+    grid-template-columns: fit-content(100%);
+    grid-gap: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+@media all and (max-width: 499px) {
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media all and (max-width: 499px) {
+  .two {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+@media all and (min-width: 415px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+}
+nav ul li a:visited {
+  color: #;
+}
+
+header nav ul li a:hover {
+  color: #;
+  padding: 4px;
+}
+header nav ul {
+  font-size: 20px;
+  font-family: Georgia, serif;
+}
+header p {
+  color: #fff;
+  text-align: center;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+  color: #2d4386;
+}
+
+footer#page-footer {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-family: Georgia, serif;
+}
+footer p{
+  font-size: 14px;
+  color: black;
+}
